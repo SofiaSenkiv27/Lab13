@@ -9,15 +9,15 @@ public class TwitterUser {
     private String country;
     private String lastActiveTime;
 
-    public String getUserMail () {
+    public String getUserMail() {
         return userMail;
     }
 
-    public String getCountry () {
+    public String getCountry() {
         return country;
     }
 
-    public String getLastActiveTime () {
+    public String getLastActiveTime() {
         return lastActiveTime;
     }
 }

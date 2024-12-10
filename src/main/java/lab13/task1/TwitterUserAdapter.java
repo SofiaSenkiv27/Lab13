@@ -1,6 +1,6 @@
 package lab13.task1;
 
-public class TwitterUserAdapter implements User{
+public class TwitterUserAdapter implements User {
     private TwitterUser twitterUser;
 
     public TwitterUserAdapter(TwitterUser twitterUser) {
