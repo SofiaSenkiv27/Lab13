@@ -22,7 +22,7 @@ public class BrandFetchReader {
             .header("Authorization", "Bearer" + API_KEY)
             .build();
 
-        HttpResponse<String>response = httpClient.send(httpRequest, BodyHandlers.ofString());
+        HttpResponse<String> response = httpClient.send(httpRequest, BodyHandlers.ofString());
         System.out.println(response.body());
         ObjectMapper objectMapper = new ObjectMapper();
         return objectMapper.readValue(response.body(), Company.class);
